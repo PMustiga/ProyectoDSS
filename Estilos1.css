@@ -1,0 +1,41 @@
+h2 { /* Este estilo afecta a todos los h2 de index2.html (El *./ sirve como comentario dentro de CSS */
+    font-size: 50px;
+    color: red;
+    background: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+  
+}
+
+.textoamarillo {  /*Clase CSS que aplica color amarillo y fuente Georgia */
+    color: rgb(218, 230, 59);
+    font-family: Georgia, 'Times New Roman', Times, serif
+
+}
+
+.textorojo {
+    font-size: 30px;
+    color: red;
+    font-family: 'Times New Roman', Times, serif
+}
+.claseContenedorDiv1 {
+    font-size: 40px;
+    width: 2510px;
+    height: 500px;
+    background-color: rgb(250, 250, 11);
+    color: black;
+}
+#fondonaranja{  /* Identificador que solo afecta a una etiqueta (modifica uno solo) */
+    background-color: orange;
+    font-size: 25px;
+    text-align: center;
+}
+.textoamarillo:hover{ /*hover se aplica a una clase ya creada. Afecta al posicionar el cursor encima */
+
+    background-color: aqua;
+    color: yellow;
+}
+
+.claseContenedorDiv1::first-letter{
+    font-size: 50px;
+    color: rgb(27, 195, 218);
+}
